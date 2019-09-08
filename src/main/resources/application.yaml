@@ -1,0 +1,17 @@
+
+server.port: 8080
+
+spring:
+  application:
+    name: api-gw
+
+
+eureka:
+  instance:
+    #hostname: localhost
+
+
+info.app:
+  name: Api Gateway
+  description: Service to proxy requests automatically using service discovery
+  version: 1.0
